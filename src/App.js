@@ -4,11 +4,13 @@ import "./App.css";
 import * as ReactBootstrap from "react-bootstrap";
 
 function App() {
-  
+
+
   var members = [
     { name: "Alvaro Mauricio", lastname: "Galarza Almanza", codigo: "C7474-8" },
     { name: "Dayana Stefka", lastname: "Ledezma Bohorquez", codigo: "A19083-7" },
-    { name: "Morelia", lastname: "Hidalgo Caceres", codigo: "C7504-3" }
+    { name: "Morelia", lastname: "Hidalgo Caceres", codigo: "C7504-3" },
+    { name: "Sasha", lastname: "Taboada", codigo:"123456"}
   ];
 
   const renderTable = (member, index) => {
